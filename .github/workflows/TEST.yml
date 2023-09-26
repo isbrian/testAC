@@ -35,7 +35,7 @@ jobs:
 
       # use actions-gh-pages to deploy dist to gh-pages
       - name: Deploy
-        uses: isbrian/testAC@v3
+        uses: isbrian/testAC
         with:
           # github will auto-generate a token for this job and use it 
           github_token: ${{ secrets.GITHUB_TOKEN }}
